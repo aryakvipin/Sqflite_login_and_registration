@@ -9,7 +9,6 @@ class Home extends StatelessWidget {
     var name  = data[0]['name'];
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
         title: Text("Welcome $name"),
       ),
       body: Center(
