@@ -60,9 +60,12 @@ class _Login_FormState extends State<Login_Form> {
                 decoration: InputDecoration(
                     prefixIcon: const Icon(Icons.drive_file_rename_outline),
                     labelText: "Email",
+
                     border: OutlineInputBorder(
+
                       borderRadius: BorderRadius.circular(20),
-                    )),
+                    )
+                ),
                 validator: (text) {
                   if (text!.isEmpty ||
                       !text.contains('@') ||
